@@ -3,7 +3,7 @@
 namespace ThuongMaiDienTu.Areas.Admin.Controllers
 {
   [Area("Admin")]
-  public class HomeController : Controller
+  public class ProductController : Controller
   {
     public IActionResult Index()
     {

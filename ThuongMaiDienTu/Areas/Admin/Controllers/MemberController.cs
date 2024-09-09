@@ -3,9 +3,14 @@
 namespace ThuongMaiDienTu.Areas.Admin.Controllers
 {
   [Area("Admin")]
-  public class HomeController : Controller
+  public class MemberController : Controller
   {
     public IActionResult Index()
+    {
+      return View();
+    }
+
+    public IActionResult Login()
     {
       return View();
     }

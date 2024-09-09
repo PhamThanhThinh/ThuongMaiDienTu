@@ -1,11 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace ThuongMaiDienTu.Controllers
+namespace ThuongMaiDienTu.Areas.Admin.Controllers
 {
-  public class CategoryController : Controller
+  [Area("Admin")]
+  public class NewsController : Controller
   {
-
-
     public IActionResult Index()
     {
       return View();

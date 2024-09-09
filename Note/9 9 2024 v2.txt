@@ -1,0 +1,7 @@
+update-database
+
+EF
+
+Install-Package System.Linq.Dynamic.Core (mặc định cài version mới nhất)
+
+using System.Linq.Dynamic.Core;
